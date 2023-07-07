@@ -12,13 +12,11 @@ data class DataBase(
 )
 
 fun main() {
-    val json1 = """
-        {
-            "name": "George Kariuki",
-            "age": 20,
-            "email": "george@example.com"
-        }
-    """.trimIndent()
+    val json1 = """{
+         "name": "George Kariuki",
+         "age": 20,
+         "email": "george@example.com"
+         }"""
 
     println("Enter your name:")
     val name: String? = readlnOrNull()
